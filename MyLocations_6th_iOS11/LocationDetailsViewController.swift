@@ -24,6 +24,8 @@ class LocationDetailsViewController: UITableViewController {
     var coordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
     var placemark: CLPlacemark?
     
+    var categoryName = "No Category"
+    
     
     // MARK: - Outlets
     
@@ -38,7 +40,7 @@ class LocationDetailsViewController: UITableViewController {
         super.viewDidLoad()
         
         descriptionTextView.text = ""
-        categoryLabel.text = ""
+        categoryLabel.text = categoryName
         
         latitudeLabel.text = String(format: "%.8f", coordinate.latitude)
         longitudeLabel.text = String(format: "%.8f", coordinate.longitude)
@@ -60,6 +62,12 @@ class LocationDetailsViewController: UITableViewController {
     
     @IBAction func cancel() {
         navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func categoryPickerDidPickCategory(_ segue: UIStoryboardSegue) {
+        let controller = segue.source as! CategoryPickerViewController
+        categoryName = controller.selectedCategoryName
+        categoryLabel.text = categoryName
     }
     
     func string(from placemark: CLPlacemark) -> String {
@@ -89,7 +97,7 @@ class LocationDetailsViewController: UITableViewController {
         return dateFormatter.string(from: date)
     }
     
-    // MARK: - Tab;eView Delegates
+    // MARK: - TableView Delegates
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == 0 && indexPath.row == 0 {
@@ -101,6 +109,14 @@ class LocationDetailsViewController: UITableViewController {
             return addressLabel.frame.size.height + 20
         } else {
             return 44
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PickCategory" {
+            let controller = segue.destination as! CategoryPickerViewController
+            
+            controller.selectedCategoryName = categoryName
         }
     }
     

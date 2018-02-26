@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F3562752040427900380AEE /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3562742040427900380AEE /* LocationDetailsViewController.swift */; };
+		3F3562792043F4F600380AEE /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3562782043F4F600380AEE /* CategoryPickerViewController.swift */; };
 		3FC962AE203C432200AD7EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962AD203C432200AD7EE3 /* AppDelegate.swift */; };
 		3FC962B0203C432200AD7EE3 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */; };
 		3FC962B2203C432200AD7EE3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962B1203C432200AD7EE3 /* SecondViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3F3562742040427900380AEE /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
+		3F3562782043F4F600380AEE /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 		3FC962AA203C432200AD7EE3 /* MyLocations_6th_iOS11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations_6th_iOS11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC962AD203C432200AD7EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */,
 				3FC962B1203C432200AD7EE3 /* SecondViewController.swift */,
 				3FC962B3203C432200AD7EE3 /* Main.storyboard */,
+				3F3562782043F4F600380AEE /* CategoryPickerViewController.swift */,
 				3FC962B6203C432200AD7EE3 /* Assets.xcassets */,
 				3FC962B8203C432200AD7EE3 /* LaunchScreen.storyboard */,
 				3FC962BB203C432200AD7EE3 /* Info.plist */,
@@ -145,6 +148,7 @@
 				3F3562752040427900380AEE /* LocationDetailsViewController.swift in Sources */,
 				3FC962B2203C432200AD7EE3 /* SecondViewController.swift in Sources */,
 				3FC962AE203C432200AD7EE3 /* AppDelegate.swift in Sources */,
+				3F3562792043F4F600380AEE /* CategoryPickerViewController.swift in Sources */,
 				3FC962B0203C432200AD7EE3 /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
