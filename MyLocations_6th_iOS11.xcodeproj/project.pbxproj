@@ -14,6 +14,8 @@
 		3F356280204475E200380AEE /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F35627E204475E200380AEE /* DataModel.xcdatamodeld */; };
 		3F356283204478F200380AEE /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F356281204478F200380AEE /* Location+CoreDataClass.swift */; };
 		3F356284204478F200380AEE /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F356282204478F200380AEE /* Location+CoreDataProperties.swift */; };
+		3F6F2057204576CA00F0FCB2 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F2056204576CA00F0FCB2 /* LocationsViewController.swift */; };
+		3F6F2059204584EE00F0FCB2 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F2058204584EE00F0FCB2 /* LocationCell.swift */; };
 		3FC962AE203C432200AD7EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962AD203C432200AD7EE3 /* AppDelegate.swift */; };
 		3FC962B0203C432200AD7EE3 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */; };
 		3FC962B2203C432200AD7EE3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962B1203C432200AD7EE3 /* SecondViewController.swift */; };
@@ -30,6 +32,8 @@
 		3F35627F204475E200380AEE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		3F356281204478F200380AEE /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3F356282204478F200380AEE /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F6F2056204576CA00F0FCB2 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		3F6F2058204584EE00F0FCB2 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		3FC962AA203C432200AD7EE3 /* MyLocations_6th_iOS11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations_6th_iOS11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC962AD203C432200AD7EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
@@ -70,20 +74,22 @@
 		3FC962AC203C432200AD7EE3 /* MyLocations_6th_iOS11 */ = {
 			isa = PBXGroup;
 			children = (
+				3FC962AD203C432200AD7EE3 /* AppDelegate.swift */,
+				3FC962B6203C432200AD7EE3 /* Assets.xcassets */,
+				3F3562782043F4F600380AEE /* CategoryPickerViewController.swift */,
+				3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */,
+				3F35627E204475E200380AEE /* DataModel.xcdatamodeld */,
+				3F35627C2044542500380AEE /* Functions.swift */,
+				3F35627A204428F800380AEE /* HudView.swift */,
+				3FC962BB203C432200AD7EE3 /* Info.plist */,
+				3FC962B8203C432200AD7EE3 /* LaunchScreen.storyboard */,
 				3F356281204478F200380AEE /* Location+CoreDataClass.swift */,
 				3F356282204478F200380AEE /* Location+CoreDataProperties.swift */,
-				3F35627A204428F800380AEE /* HudView.swift */,
-				3F35627E204475E200380AEE /* DataModel.xcdatamodeld */,
+				3F6F2058204584EE00F0FCB2 /* LocationCell.swift */,
 				3F3562742040427900380AEE /* LocationDetailsViewController.swift */,
-				3F35627C2044542500380AEE /* Functions.swift */,
-				3FC962AD203C432200AD7EE3 /* AppDelegate.swift */,
-				3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */,
-				3FC962B1203C432200AD7EE3 /* SecondViewController.swift */,
+				3F6F2056204576CA00F0FCB2 /* LocationsViewController.swift */,
 				3FC962B3203C432200AD7EE3 /* Main.storyboard */,
-				3F3562782043F4F600380AEE /* CategoryPickerViewController.swift */,
-				3FC962B6203C432200AD7EE3 /* Assets.xcassets */,
-				3FC962B8203C432200AD7EE3 /* LaunchScreen.storyboard */,
-				3FC962BB203C432200AD7EE3 /* Info.plist */,
+				3FC962B1203C432200AD7EE3 /* SecondViewController.swift */,
 			);
 			path = MyLocations_6th_iOS11;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 				3F356280204475E200380AEE /* DataModel.xcdatamodeld in Sources */,
 				3FC962B2203C432200AD7EE3 /* SecondViewController.swift in Sources */,
 				3F35627B204428F800380AEE /* HudView.swift in Sources */,
+				3F6F2057204576CA00F0FCB2 /* LocationsViewController.swift in Sources */,
 				3F356284204478F200380AEE /* Location+CoreDataProperties.swift in Sources */,
+				3F6F2059204584EE00F0FCB2 /* LocationCell.swift in Sources */,
 				3F35627D2044542500380AEE /* Functions.swift in Sources */,
 				3FC962AE203C432200AD7EE3 /* AppDelegate.swift in Sources */,
 				3F356283204478F200380AEE /* Location+CoreDataClass.swift in Sources */,

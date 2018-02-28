@@ -63,6 +63,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let navController = tabViewControllers[0] as! UINavigationController
             let controller = navController.viewControllers.first! as! CurrentLocationViewController
             controller.managedObjectContext = managedObjectContext
+            
+            let navController1 = tabViewControllers[1] as! UINavigationController
+            let controller1 = navController1.viewControllers.first! as! LocationsViewController
+            controller1.managedObjectContext = managedObjectContext
+            let _ = controller1.view
+            
         }
         
         print(applicationDocumentsDirectory)
