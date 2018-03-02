@@ -18,6 +18,7 @@
 		3F356284204478F200380AEE /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F356282204478F200380AEE /* Location+CoreDataProperties.swift */; };
 		3F6F2057204576CA00F0FCB2 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F2056204576CA00F0FCB2 /* LocationsViewController.swift */; };
 		3F6F2059204584EE00F0FCB2 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F2058204584EE00F0FCB2 /* LocationCell.swift */; };
+		3FBDE3442049932D00004ABF /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBDE3432049932D00004ABF /* UIImage+Resize.swift */; };
 		3FC962AE203C432200AD7EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962AD203C432200AD7EE3 /* AppDelegate.swift */; };
 		3FC962B0203C432200AD7EE3 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */; };
 		3FC962B2203C432200AD7EE3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC962B1203C432200AD7EE3 /* SecondViewController.swift */; };
@@ -38,6 +39,7 @@
 		3F356282204478F200380AEE /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F6F2056204576CA00F0FCB2 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		3F6F2058204584EE00F0FCB2 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		3FBDE3432049932D00004ABF /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
 		3FC962AA203C432200AD7EE3 /* MyLocations_6th_iOS11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations_6th_iOS11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC962AD203C432200AD7EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC962AF203C432200AD7EE3 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				3F3562742040427900380AEE /* LocationDetailsViewController.swift */,
 				3F6F2056204576CA00F0FCB2 /* LocationsViewController.swift */,
 				3FC962B3203C432200AD7EE3 /* Main.storyboard */,
+				3FBDE3432049932D00004ABF /* UIImage+Resize.swift */,
 				3FC962B1203C432200AD7EE3 /* SecondViewController.swift */,
 			);
 			path = MyLocations_6th_iOS11;
@@ -193,6 +196,7 @@
 				3F6F2057204576CA00F0FCB2 /* LocationsViewController.swift in Sources */,
 				3F356284204478F200380AEE /* Location+CoreDataProperties.swift in Sources */,
 				3F1FF59F2046D99B008387C4 /* MapViewController.swift in Sources */,
+				3FBDE3442049932D00004ABF /* UIImage+Resize.swift in Sources */,
 				3F6F2059204584EE00F0FCB2 /* LocationCell.swift in Sources */,
 				3F35627D2044542500380AEE /* Functions.swift in Sources */,
 				3FC962AE203C432200AD7EE3 /* AppDelegate.swift in Sources */,
